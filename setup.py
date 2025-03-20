@@ -17,7 +17,7 @@ setup(
     # find_packages(exclude=[]),
     install_requires=['numpy', 'matplotlib', 'pymatgen', "scikit-learn",
                       "torch", "scipy", "pymongo", "pandas",
-                      'networkx==2.3', 'tqdm',
+                      'networkx', 'tqdm',
                       "ase"],
     include_package_data=True,
 )
