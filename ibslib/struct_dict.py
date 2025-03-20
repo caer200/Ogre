@@ -2,8 +2,8 @@
 import os
 
 from ase import Atoms
-from pymatgen import Structure as StructureP
-from pymatgen import Molecule
+from pymatgen.core.structure import Structure as StructureP
+from pymatgen.core.structure import Molecule
 
 from ibslib import Structure
 from ibslib.io import read,write

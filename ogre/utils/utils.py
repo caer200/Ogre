@@ -6,8 +6,8 @@ from ase.utils import gcd, basestring
 from ase.build import bulk
 from copy import deepcopy
 from numpy.linalg import norm, solve
-from pymatgen.analysis.graphs import MoleculeGraph, StructureGraph
-from pymatgen.core.structure import Molecule
+# from pymatgen.analysis.graphs import MoleculeGraph, StructureGraph
+# from pymatgen.core.structure import Molecule
 from pymatgen.io.vasp.inputs import Poscar
 from ase import io
 import networkx.algorithms.isomorphism as iso

@@ -12,9 +12,9 @@ from ase.data import atomic_numbers,atomic_masses_iupac2016
 from ase.formula import Formula
 from ase.neighborlist import NeighborList,natural_cutoffs
 
-from pymatgen import Lattice as LatticeP
-from pymatgen import Structure as StructureP
-from pymatgen import Molecule
+from pymatgen.core.lattice import Lattice as LatticeP
+from pymatgen.core.structure import Structure as StructureP
+from pymatgen.core.structure import Molecule
 
 
 class Structure(object):
